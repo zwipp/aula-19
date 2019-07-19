@@ -16,7 +16,7 @@
 		'trailer' => '<iframe src="https://www.youtube.com/embed/Be36DHpAnqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 		'censura' => 10,
 		'genero' => 0,
-		'critica' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, veniam quia. Quam aperiam eius facere provident officiis suscipit optio earum laudantium aut necessitatibus corrupti qui, dolorem, illum veniam doloribus quae?'
+		'critica' => 'ydgweygcyiwgyiewgyiewisicing elit. Dolor, veniam quia. Quam aperiam eius facere provident officiis suscipit optio earum laudantium aut necessitatibus corrupti qui, dolorem, illum veniam doloribus quae?'
 	];
 
 	$filmes[] = [
