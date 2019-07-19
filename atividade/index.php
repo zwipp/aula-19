@@ -26,8 +26,9 @@
 				}
 			?>
 		</ul>
-		<form>
-			<input type="text" name="trecho"><button type="submit">Buscar</button>
+		<form method="GET" action="busca.php">
+			<input type="text" name="trecho">
+			<button type="submit">Buscar</button>
 		</form>
 	</nav>
 	

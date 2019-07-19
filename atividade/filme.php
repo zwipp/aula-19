@@ -1,10 +1,17 @@
 <?php
 	include('./includes/filmes.php');
-	$id = 1*$_GET['id'];
-	$f = $filmes[$id];
+	
 
 
 	include('./includes/generos.php');
+
+	if(!array_key_exists('id',$_GET) || $_GET['id'] >= count($filmes) ){
+		echo('Filme não encontrado');
+		die();
+	}
+
+	$id = 1*$_GET['id'];
+	$f = $filmes[$id];
 ?>
 
 <!DOCTYPE html>
@@ -30,8 +37,9 @@
 				}
 			?>
 		</ul>
-		<form>
-			<input type="text" name="trecho"><button type="submit">Buscar</button>
+		<form method="GET" action="busca.php">
+			<input type="text" name="trecho">
+			<button type="submit">Buscar</button>
 		</form>
 	</nav>
 	<main>
